@@ -6,18 +6,18 @@
 
 - [Masters in Aeronautics and Astronautics](https://engineering.purdue.edu/AAE/)
    
-   Purdue University, West Lafayette.  
+   Purdue University, West Lafayette  
    2021
    
 - [B. Tech (Hons), Aerospace Engineering](http://www.iitkgp.ac.in/)
 
-   Indian Institute of Technology, Kharagpur.   
+   Indian Institute of Technology, Kharagpur   
    2019
    
 
 ---
 
-### Category Name 2
+### Projects
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
