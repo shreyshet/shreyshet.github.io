@@ -4,12 +4,7 @@
 
 ### Education 
 
-- Masters in Aeronautics and Astronautics
-  <br>
-  School of Aeronautics and Astronautics
-  <br>
-  Purdue University, West Lafayette(https://engineering.purdue.edu/AAE) 
-  <br>
+- [Masters in Aeronautics and Astronautics](https://engineering.purdue.edu/AAE/)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
