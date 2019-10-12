@@ -8,7 +8,7 @@
   <br>
   School of Aeronautics and Astronautics
   <br>
-  <font size="2"> Purdue University, West Lafayette (https://engineering.purdue.edu/AAE) </font>
+  Purdue University, West Lafayette(https://engineering.purdue.edu/AAE) 
   <br>
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
