@@ -5,10 +5,15 @@
 ### Education 
 
 - [Masters in Aeronautics and Astronautics](https://engineering.purdue.edu/AAE/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+   
+   Purdue University, West Lafayette.  
+   2021
+   
+- [B. Tech (Hons), Aerospace Engineering](http://www.iitkgp.ac.in/)
+
+   Indian Institute of Technology, Kharagpur.   
+   2019
+   
 
 ---
 
