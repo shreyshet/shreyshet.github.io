@@ -5,7 +5,9 @@
 ### Education 
 
 - Masters in Aeronautics and Astronautics
+  <br>
   School of Aeronautics and Astronautics
+  <br>
   Purdue University, West Lafayette (http://example.com/)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
