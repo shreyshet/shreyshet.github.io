@@ -1,6 +1,9 @@
-## This can be your internal website page / project page
+## Absolute and Relative Motion Control of Satellites
+**Control Dynamics and Simulations Group, Bangalore**  
+**Indian Space Research Organisation (ISRO)**
+**May - July, 2017**
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** Simulations on **MATLAB** were performed to demostrate rendezvous of two satellites in Low Earth Orbit in the vicinity of each other. First, the initial orbital parameters of each satellite were converted to position and velocity in Earth Centric Intertial(ECI) Frame. Then propagated the non linear motion in ECI frame while simultaneously   For this a Proportional Derivative controller was proposed using the available . Implemented Proportinal Derivative 
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
