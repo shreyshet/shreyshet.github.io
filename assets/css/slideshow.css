@@ -13,6 +13,15 @@ body {font-family: Verdana,sans-serif;}
   margin: auto;
   height: 100%;
 }
+.slideshow-nav {
+  text-align:center; 
+  padding: 30px 0;
+}
+  
+.mySlides {
+  width: auto;
+}
+
 
 /* Caption text */
 .text {
