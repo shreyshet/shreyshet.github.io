@@ -88,7 +88,7 @@
 								<ul>
 									<li>नमस्ते, Hello, Hallo, Hola !!</li> 
 									<li>Engineer here, who resonates with control theory.</li>
-									<li>Love jamming on drums, reading books on math and cooking.</li>
+									<li>Love jamming on drums, riding my motorbike and reading books on math.</li>
 								</ul>
 							</p>
 							</div>
@@ -108,10 +108,25 @@
 						<p>Explore some of my projects here...</p>
 						<div class = "row">
 							<div class="img__wrap column">
-								<a href="CV_lib.html">
-								<img class="img__img" src="images/Reax_Projects/header-truck-actt-two.png" style="width: 100%;"/>
-								</a>
-								<p class="img__description">Making Autonomous Stack</p>
+								<img class="img__img" src="images/work/auto_connect2.png" style="width: 100%;"/>
+								<p class="img__description">Autonomous Tractor-Trailer Coupling</p>
+							</div>
+							<div class="img__wrap column">
+								
+								<img class="img__img" src="images/Reax_Projects/ReAXColumnMounted_72258.png" style="width: 100%"/>
+								<a href="CV_lib.html" onclick="return show('Page2','Page1');">
+								<p class="img__description">ZF Steering: ReAX</p>
+								</a>			
+							</div>
+							<div class="img__wrap column">
+								<img class="img__img" src="images/Reax_Projects/header-truck-actt-two.png" style="width: 100%"/>
+								<p class="img__description">Autonomous Stack for Yard Tractors</p>
+							</div>
+						</div>
+						<div class = "row">	
+							<div class="img__wrap column">
+								<img class="img__img" src="images/Reax_Projects/ReAXColumnMounted_72258.png" style="width: 100%"/>
+								<p class="img__description">This image looks super neat.</p>
 							</div>
 							<div class="img__wrap column">
 								<img class="img__img" src="images/Reax_Projects/ReAXColumnMounted_72258.png" style="width: 100%"/>
@@ -164,15 +179,7 @@
 
 			</div>
 
-		<!-- Footer -->
-			<!--div id="footer">
-
-				<!-- Copyright -->
-					<!--ul class="copyright">
-						<li>&copy; </li>
-					</ul>
-
-			</div>
+		
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -189,6 +196,12 @@
 			
 			startSlides();
 			
+			function show(shown, hidden) {
+			document.getElementById(shown).style.display='block';
+			document.getElementById(hidden).style.display='none';
+			return false;
+			}
+
 			function startSlides(){
 				pauseSlides();
 				nextSlide();

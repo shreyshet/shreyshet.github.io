@@ -16,6 +16,8 @@
 		font-size: 100%;
 		font: stylus;
 		vertical-align: baseline;
+		word-break: break-word;
+		white-space: normal;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -56,7 +58,11 @@
 		box-sizing: border-box;
 	}
 
-/* */
+/* BOX */
+.wrapper {
+    position:relative;
+    display:inline-block;
+}
 /* quick reset */
 * {
 	margin: 0;
@@ -65,12 +71,20 @@
   }
   
   /* relevant styles */
+  .img__img{
+		float: left;
+		width: 300px;
+		height: 300px;
+		object-fit: cover;
+  }
   .img__wrap {
 	position: relative;
 	height: relative;
 	width: relative;
+
   }
-  
+
+
   .img__description {
 	position: absolute;
 	top: 0;
@@ -81,16 +95,19 @@
 	color: #fff;
 	visibility: hidden;
 	opacity: 0;
-  
+	height: 100%;
+  	width: 100%;
+
 	/* transition effect. not necessary */
-	transition: opacity .2s, visibility .2s;
+	transition: opacity .8s, visibility .8s;
   }
   
   .img__wrap:hover .img__description {
 	visibility: visible;
 	opacity: 1;
 	box-shadow: 0 0 3px black;
-	margin-top: -10px;
+	height: 100%;
+  	width: 100%;
   }
 
 /* Containers */
@@ -258,7 +275,7 @@
 		width: 33.33%;
 		padding: 5px;
 	}
-	
+
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
@@ -1940,6 +1957,7 @@
 				background: #eee;
 			}
 
+			/* Box*/
 /* Button */
 
 	input[type="button"],
@@ -2615,7 +2633,7 @@
 
 /* My classes*/
 
-}
+
 
 .header_slide{
 	height: 100%
@@ -2624,6 +2642,28 @@
 .box{
 	display: inline-block;
 }
+.box {
+    background-color:#CC0000;
+    width:150px;
+    height:200px;
+    display:inline-block;
+    margin-right:10px;
+ }
+ .box:last-of-type {
+    margin-right:0;
+}
+.absoluteBox {
+    position:absolute;
+    background-color:blue;
+    height:200px;
+    width:150px;
+}
+
+.box:hover {
+    background-color:red;
+}
+
+
 
 #top {
 	height: 100vh
@@ -2633,11 +2673,30 @@
 	height: 100%
 }
 
+
 .projects_column{
 	display: inline-block;
 	float: left;
 	width: 100%;
 }
+.container2 {  position: relative; }
+
+.container2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url("/images/work/auto_connect.png");
+   	opacity: 0.2;
+}
+
+.content {
+    position: relative; 
+    z-index: 2;
+}​
 
 .pro_box{
 	display: table;

@@ -14,6 +14,7 @@
 		mobile: '(max-width: 736px)'
 	});
 
+	
 	$(function() {
 
 		var	$window = $(window),
@@ -113,6 +114,20 @@
 				if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
 					$('#headerToggle, #header, #main')
 						.css('transition', 'none');
+
+						$('.box').on('click', function() {
+							var $element = $(this);
+							
+							var $openElement = $('<div class="absoluteBox"></div>');
+							
+							$openElement.css('left', $element.position().left);
+							$openElement.css('right', $element.width());
+								
+							$element.html($openElement);
+							
+							$openElement.animate({left : 0, width : $('.wrapper').width()}, 500);
+						   
+				});
 
 	});
 
