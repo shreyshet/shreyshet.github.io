@@ -67,8 +67,8 @@
   /* relevant styles */
   .img__wrap {
 	position: relative;
-	height: 200px;
-	width: 257px;
+	height: relative;
+	width: relative;
   }
   
   .img__description {
@@ -89,8 +89,10 @@
   .img__wrap:hover .img__description {
 	visibility: visible;
 	opacity: 1;
+	box-shadow: 0 0 3px black;
+	margin-top: -10px;
   }
-  
+
 /* Containers */
 
 	.container {
@@ -251,12 +253,20 @@
 	}
 
 /* Grid */
-
+	.column {
+		float: left;
+		width: 33.33%;
+		padding: 5px;
+	}
+	
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
+		content: "";
+  		clear: both;
+  		display: table;
 	}
 
 	.row > * {
