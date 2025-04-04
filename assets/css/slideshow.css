@@ -66,6 +66,7 @@ body {font-family: Verdana,sans-serif;}
   width: auto;
   padding: 6px;
   color: black;
+  background-color: black;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
